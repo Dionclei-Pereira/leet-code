@@ -11,9 +11,9 @@
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        ListNode* dummy = new ListNode(-1, head);
+        ListNode dummy(-1, head);
 		ListNode* current = head;
-		ListNode* lastValid = dummy;
+		ListNode* lastValid = &dummy;
 		
 		while (current != nullptr) {
 			if (current->val == val) {
@@ -25,6 +25,6 @@ public:
 			}
 		}
 		
-		return dummy->next;
+		return dummy.next;
     }
 };
