@@ -37,13 +37,13 @@ The dummy node allows the same logic to be used even when the original head need
 
 At the end, dummy.next points to the new head of the linked list.
 
-Complexity
+## Complexity
 
 Time Complexity: O(n) — each node is visited exactly once.
 
 Space Complexity: O(1) — only a constant number of pointers are used.
 
-Key Idea
+## Key Idea
 
 The key to removing a node from a singly linked list is to change the next pointer of the previous valid node so that it skips the node that should be removed.
 
