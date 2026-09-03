@@ -31,10 +31,10 @@ Move current forward.
 
 When current becomes nullptr, previous points to the new head of the reversed list.
 
-Complexity
+## Complexity
 Time Complexity: O(n) — each node is visited exactly once.
 Space Complexity: O(1) — only a constant number of pointers are used.
-Key Idea
+## Key Idea
 
 The key to reversing a linked list is to change the direction of each next pointer while keeping track of the next node before modifying it.
 
