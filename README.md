@@ -18,11 +18,11 @@ More languages may be added as I continue practicing.
 Solutions are organized by problem or topic, depending on the structure used for each set of exercises.
 
 leet-code/ <br>
-├── Arrays/ <br>
-├── Linked_Lists/ <br>
-├── Strings/ <br>
-├── Trees/ <br>
-├── Graphs/ <br>
+├── Array/ <br>
+├── Linked_List/ <br>
+├── Queue/ <br>
+├── Stack/ <br>
+├── String/ <br>
 └── ...
 
 ### 🎯 Goals
