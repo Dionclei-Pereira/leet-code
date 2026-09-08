@@ -8,7 +8,7 @@ public:
 
         for (int i = 0; i < heights.size(); i++) {
 
-            while (!stack.empty() && heights[i] <= heights[stack.back()]) {
+            while (!stack.empty() && heights[i] < heights[stack.back()]) {
                 int height = heights[stack.back()];
                 stack.pop_back();
 
