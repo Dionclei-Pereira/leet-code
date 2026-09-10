@@ -10,6 +10,7 @@ Most solutions are written in:
 
 - C++
 - Java
+- TypeScript
 
 More languages may be added as I continue practicing.
 
